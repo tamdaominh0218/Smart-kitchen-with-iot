@@ -1,0 +1,46 @@
+<HTML>
+<TITLE>
+REMOTE LED ON/OFF CONTROL
+</TITLE>
+<style>
+body{
+  font-family: Arial;
+  
+  }
+h1{ font-size: 50px;
+color: orange;
+}
+h2{ font-size: 30px;
+color: orange;}
+</style>
+<BODY>
+<CENTER>
+<h1>HỆ THỐNG GIÁM SÁT KHÔNG KHÍ PHÒNG HỌC</h1>
+<img src="http://ete.dut.udn.vn/theme/images/logo.jpg">
+<h2>Khoa Điện tử - Viễn Thông</h2>
+
+<FORM method="post" action="/form">
+<strong><TABLE style="font-size: 30px;color: Maroon;">
+
+<TR><TD>Temp: @@TEMP@@ C</TD><TD>Hum: @@HUM@@ %</TD></TR>
+<TR><TD>Gas: @@GAS@@ </TD><TD>Load Status</TD></TR>
+
+<TR><TD>
+<INPUT TYPE=SUBMIT VALUE="ON1" name=submit>
+<INPUT TYPE=SUBMIT VALUE="OFF1" name=submit>
+</TD>
+<TD>@@L1@@</TD></TR>
+
+<TR><TD>
+<INPUT TYPE=SUBMIT VALUE="ON2" name=submit>
+<INPUT TYPE=SUBMIT VALUE="OFF2" name=submit>
+</TD>
+<TD>@@L2@@</TD></TR>
+
+</TABLE>
+</FORM>
+</strong>
+</CENTER>
+
+</BODY>
+</HTML>
